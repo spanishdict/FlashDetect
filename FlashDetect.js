@@ -3,7 +3,7 @@ Copyright (c) Copyright (c) 2007, Carl S. Yestrau All rights reserved.
 Code licensed under the BSD License: http://www.featureblend.com/license.txt
 Version: 1.0.4
 */
-var FlashDetect = new function(){
+var FlashDetect = function(){
     var self = this;
     self.installed = false;
     self.raw = "";
@@ -198,3 +198,5 @@ var FlashDetect = new function(){
     }();
 };
 FlashDetect.JS_RELEASE = "1.0.4";
+
+module.exports = FlashDetect;
