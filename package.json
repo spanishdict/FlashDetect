@@ -1,6 +1,6 @@
 {
-  "name": "FlashDetect",
-  "version": "1.1.0",
+  "name": "flash-detect",
+  "version": "1.1.1",
   "description": "A JavaScript library designed to simplify the process of detecting if the Adobe Flash Player is installed in a Web Browser.",
   "main": "FlashDetect.js",
   "scripts": {
